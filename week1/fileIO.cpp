@@ -23,7 +23,7 @@ int main(int argc, char** argv)
    {
       int grade;
       file >> grade;
-      sum += grade;
+      sum += grade + 0.5f;
       num++;
    }
 
